@@ -183,7 +183,7 @@
   /* ---------- ENTRY FORM ---------- */
   .entry-section{
     max-width:1180px;
-    margin:320px auto 160px auto;
+    margin:300px auto 160px auto;
     padding:0 40px;
     position:relative;
     z-index:5;
@@ -258,8 +258,7 @@
   .status-msg.err{display:block; background:#FBEAEA; color:#8A2E2E;}
 
   .ad-top-bar,
-  .ad-bottom,
-  .ad-side{
+  .ad-bottom{
     position:relative;
     z-index:5;
   }
@@ -269,15 +268,6 @@
     padding:0 20px;
     display:flex;
     justify-content:center;
-  }
-  .ad-side{
-    position:fixed;
-    right:18px;
-    top:130px;
-    display:flex;
-    flex-direction:column;
-    gap:18px;
-    width:170px;
   }
   .site-footer{
     background:var(--ink);
@@ -296,19 +286,18 @@
   }
   .site-footer small{color:#AEB9B3;}
 
-  @media (max-width:1200px){
-    .ad-side{display:none;}
-  }
   @media (max-width:860px){
     header.nav{padding:16px 20px;}
     nav.links{display:none;}
     .hero{grid-template-columns:1fr;}
     .hero-copy{padding:50px 26px 60px 26px;}
     .hero-visual{min-height:320px; padding:20px;}
-    .entry-section{padding:0 18px; margin-top:-40px;}
+    .entry-section{padding:0 18px; margin:40px auto 70px auto;}
     .entry-card{grid-template-columns:1fr;}
     .entry-info, .entry-form{padding:34px 26px;}
     .prize-tag{top:24px; right:24px;}
+    .ad-top-bar{margin:25px auto 0; padding:0 8px;}
+    .site-footer{margin-top:30px;}
   }
 </style>
 </head>
@@ -414,21 +403,6 @@
     };
   </script>
   <script src="https://unprofessionalginger.com/e62185f4f7cf147b3a38701a5145902c/invoke.js"></script>
-</div>
-
-<div class="ad-side">
-  <div>
-    <script>
-      atOptions = {
-        'key' : 'e09667ac6357e90d7b62ab1c3bce2751',
-        'format' : 'iframe',
-        'height' : 600,
-        'width' : 160,
-        'params' : {}
-      };
-    </script>
-    <script src="https://unprofessionalginger.com/e09667ac6357e90d7b62ab1c3bce2751/invoke.js"></script>
-  </div>
 </div>
 
 <footer class="site-footer">
